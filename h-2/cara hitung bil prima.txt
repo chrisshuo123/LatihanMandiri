@@ -1,0 +1,31 @@
+how to count prime num:
+
+sudah pasti buka bil. genap, kecuali 2. Caranya:
+minimal set i == 3
+i % 2 == 0 &&
+
+Jika user input 1 dan 2, maka == prime number.
+
+Untuk bil. Ganjil, menentukan prima / bukannya:
+- if i % 2 != 0 && i % 3 == 0
+contoh bandingkan 13 dengan 15, 15 mod 3 pasti 0, sedangkan 13 mod 0 tidak 0.
+
+Prime Number adalah:
+1, 2, 3, 5, 7, 11, 13, 17, 19,
+23, 29, 31, *35, 37, 41, 43, 47, *49, 53, *55, 59, 61, *65, 67, 71, 73, *77, 79, 83, *85, 89, *91, *95, 97, 
+
+masalah:
+- kelipatan 5 dinyatakan prime num
+- kelipatan 77 dan 91 dinyatakan prime num
+
+25 1
+24 2
+23 3
+22 4
+21 5
+20 6
+19 7
+18
+17
+16
+5  5
