@@ -22,7 +22,8 @@ func InitDatabase() {
 
 func InitMigration() {
 	// Migrate the Schema
-	DB.AutoMigrate(&models.People{}, &models.People{})
-	DB.AutoMigrate(&models.Planet{}, &models.Planet{})
-	DB.AutoMigrate(&models.Starships{}, &models.Starships{})
+	DB.AutoMigrate(&models.User{},
+		&models.People{},
+		&models.Planet{},
+		&models.Starships{})
 }

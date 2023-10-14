@@ -13,8 +13,8 @@ func main() {
 	e := echo.New()
 	//configs.initRoute()
 	routes.InitRoute(e)
-	//e.Start(":8000")
-	e.Start("https://swapi.dev/api")
+	e.Start(":8000")
+	//e.Start("https://swapi.dev/api")
 }
 
 /*type Product struct {
